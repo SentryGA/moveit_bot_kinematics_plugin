@@ -19,7 +19,7 @@ the portions to change/modify for your system:
 
 How to use the plugin:
 
-When you create the moveit package for your bot select the new plugin when you create the planning group.
+When you create the moveit package using moveit setup assistant for your bot, select the new plugin(moveit_bot_kinematics_plugin) when you create the planning groups.
 
 Since urdf does not provide the dh parameters, they have to be given seperately in the config/kinematics.yaml file of the moveit package you crearted for your bot add the following for each planning group:
 ```yaml
@@ -35,3 +35,9 @@ After the above procedure now you can run the demo.launch or corresponding launc
 
 Thanks to Jeroen(https://github.com/JeroenDM), we developed this from his repository https://github.com/JeroenDM/moveit_opw_kinematics_plugin.
 Also thanks to Jonathan Meyer(https://github.com/Jmeyer1292) for his repository https://github.com/Jmeyer1292/opw_kinematics which was used to develop the include files.
+
+Contact us :
+sentri.ga@gmail.com(me - George Alappatt)
+justin123antony@gmail.com(Justin Jose P)
+nzerojjc@gmail.com(Jobin J Chaman)
+krishnangdeepak@gmail.com(Deepak Krishnan G)
